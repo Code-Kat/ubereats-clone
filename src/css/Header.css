@@ -1,0 +1,33 @@
+.header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+
+}
+
+.header__left > img{
+    padding-left: 30px;
+}
+
+.header__search {
+    display: flex;
+    margin-left: -50px;
+    background-color: #F6F6F6;
+    padding: 16px;
+    box-shadow: inset 0px -1px 0px #E2E2E2;
+}
+
+.header__searchBorder{
+    border-bottom: 2px solid black;
+}
+
+.header__search > input{
+    background-color: #f6f6f6;
+    width: 480px;
+    outline: none;
+    border-width: 0ch;
+    font-size: 16px;
+    font-weight: 500;
+}
