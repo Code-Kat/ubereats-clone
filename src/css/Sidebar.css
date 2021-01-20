@@ -1,0 +1,79 @@
+.sidebar{
+    position:absolute;
+    background-color: white;
+    height: 105vh;
+    width: 250px;
+    border: 1px solid black;
+    margin-left: -40px;
+    margin-top:-45px;
+    display:flex;
+    flex-direction: column;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top:25px;
+    overflow: hidden;
+}
+
+.sidebar__top {
+    flex: 1;
+}
+
+.sidebar__topButton{
+    background-color: black!important;
+    color:white!important;
+    text-transform: inherit!important;
+    padding: 12px 30px!important;
+    cursor: pointer;
+    border-radius: 0!important;
+    width: 250px;
+    font-size: 18px!important;
+    margin-bottom: 25px!important;  
+}
+
+.sidebar__topButton:hover{
+    background-color: rgb(32, 31, 31)!important;
+}
+
+.sidebar__top > p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sidebar__bottom {
+    margin-bottom: 125px;
+}
+
+.sidebar__bottomApp{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.sidebar__bottomApp > img {
+    height: 60px;
+}
+
+.sidebar__bottomApp >p {
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.sidebar__bottomButtons >button{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+    padding: 6px 15px;
+    border-radius: 999px;
+    font-weight: 300;
+    background-color: #EEEEEE;
+}
+
+.sidebar__appleIcon {
+    font-size: small;
+}
+
+
+.sidebar__bottomButtons > button >p {
+    text-transform: inherit;
+}
