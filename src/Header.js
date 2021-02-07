@@ -12,7 +12,6 @@ function Header() {
     
 
     const offClickSidebar= (showSidebar && (()=>setShowSidebar(false)));
-    //const offClickBorder= (showBorder && (()=>setshowBorder(false)));
 
 
     return (
